@@ -8,7 +8,11 @@ const Comp1 = (props) => {
 class Comp2 extends React.Component {
   render() {
     return <div className="comp1">
-      我是类组件 {this.props.name}
+      <ul>
+        <li>我是类组件1 {this.props.name}</li>
+        <li>我是类组件2 {this.props.name}</li>
+        <li>我是类组件3 {this.props.name}</li>
+      </ul>
     </div>
   }
 }
